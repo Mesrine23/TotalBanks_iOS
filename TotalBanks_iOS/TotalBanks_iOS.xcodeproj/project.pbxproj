@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2B0E2D3B2B1E356200D6F9C1 /* TotalBanks_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E2D3A2B1E356200D6F9C1 /* TotalBanks_iOSApp.swift */; };
-		2B0E2D3D2B1E356200D6F9C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E2D3C2B1E356200D6F9C1 /* ContentView.swift */; };
+		2B0E2D3D2B1E356200D6F9C1 /* TotalBanksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E2D3C2B1E356200D6F9C1 /* TotalBanksView.swift */; };
 		2B0E2D3F2B1E356200D6F9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E2D3E2B1E356200D6F9C1 /* Assets.xcassets */; };
 		2B0E2D422B1E356200D6F9C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E2D412B1E356200D6F9C1 /* Preview Assets.xcassets */; };
-		2B0E2D4C2B1E356300D6F9C1 /* TotalBanks_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E2D4B2B1E356300D6F9C1 /* TotalBanks_iOSTests.swift */; };
-		2B0E2D562B1E356300D6F9C1 /* TotalBanks_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E2D552B1E356300D6F9C1 /* TotalBanks_iOSUITests.swift */; };
-		2B0E2D582B1E356300D6F9C1 /* TotalBanks_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E2D572B1E356300D6F9C1 /* TotalBanks_iOSUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +33,11 @@
 /* Begin PBXFileReference section */
 		2B0E2D372B1E356200D6F9C1 /* TotalBanks_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TotalBanks_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0E2D3A2B1E356200D6F9C1 /* TotalBanks_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBanks_iOSApp.swift; sourceTree = "<group>"; };
-		2B0E2D3C2B1E356200D6F9C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B0E2D3C2B1E356200D6F9C1 /* TotalBanksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBanksView.swift; sourceTree = "<group>"; };
 		2B0E2D3E2B1E356200D6F9C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B0E2D412B1E356200D6F9C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B0E2D472B1E356300D6F9C1 /* TotalBanks_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TotalBanks_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B0E2D4B2B1E356300D6F9C1 /* TotalBanks_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBanks_iOSTests.swift; sourceTree = "<group>"; };
 		2B0E2D512B1E356300D6F9C1 /* TotalBanks_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TotalBanks_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B0E2D552B1E356300D6F9C1 /* TotalBanks_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBanks_iOSUITests.swift; sourceTree = "<group>"; };
-		2B0E2D572B1E356300D6F9C1 /* TotalBanks_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBanks_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				2B0E2D392B1E356200D6F9C1 /* TotalBanks_iOS */,
-				2B0E2D4A2B1E356300D6F9C1 /* TotalBanks_iOSTests */,
-				2B0E2D542B1E356300D6F9C1 /* TotalBanks_iOSUITests */,
 				2B0E2D382B1E356200D6F9C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				2B0E2D3A2B1E356200D6F9C1 /* TotalBanks_iOSApp.swift */,
-				2B0E2D3C2B1E356200D6F9C1 /* ContentView.swift */,
+				2B0E2D3C2B1E356200D6F9C1 /* TotalBanksView.swift */,
 				2B0E2D3E2B1E356200D6F9C1 /* Assets.xcassets */,
 				2B0E2D402B1E356200D6F9C1 /* Preview Content */,
 			);
@@ -108,23 +100,6 @@
 				2B0E2D412B1E356200D6F9C1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		2B0E2D4A2B1E356300D6F9C1 /* TotalBanks_iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				2B0E2D4B2B1E356300D6F9C1 /* TotalBanks_iOSTests.swift */,
-			);
-			path = TotalBanks_iOSTests;
-			sourceTree = "<group>";
-		};
-		2B0E2D542B1E356300D6F9C1 /* TotalBanks_iOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2B0E2D552B1E356300D6F9C1 /* TotalBanks_iOSUITests.swift */,
-				2B0E2D572B1E356300D6F9C1 /* TotalBanks_iOSUITestsLaunchTests.swift */,
-			);
-			path = TotalBanks_iOSUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0E2D3D2B1E356200D6F9C1 /* ContentView.swift in Sources */,
+				2B0E2D3D2B1E356200D6F9C1 /* TotalBanksView.swift in Sources */,
 				2B0E2D3B2B1E356200D6F9C1 /* TotalBanks_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0E2D4C2B1E356300D6F9C1 /* TotalBanks_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B0E2D562B1E356300D6F9C1 /* TotalBanks_iOSUITests.swift in Sources */,
-				2B0E2D582B1E356300D6F9C1 /* TotalBanks_iOSUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
